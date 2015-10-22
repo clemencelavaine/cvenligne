@@ -1,0 +1,288 @@
+
+
+
+/* HEADER */
+
+header {
+	position:fixed;
+	top:-40px;
+	width:100%;
+	background-color:#57D8A9;
+	
+	text-align: center;
+	height:120px;
+	z-index: 900;
+}
+/*;
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+ /*
+.menu p {
+	color: white;
+	font-family: Quicksand, sans-serif;
+	font-size: 25px;
+}
+
+.menu li {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+
+} 
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.menu img {
+
+	width:50px;
+	height:50px;
+
+} 
+*/
+
+
+/* PARTIE PHOTO TEXT */
+
+.photo {
+	padding-top: 150px;
+	height: auto;
+  background: url(images/e.jpg) no-repeat center center;
+  background-size: 1500px;
+  margin-top: -20px;
+  
+	 
+}
+
+.photo img {
+  border-radius: 50%;
+  height: auto;
+  width: 270px;
+  border: 3px solid #C4AF23;
+  margin-left: -20px;
+
+}
+
+.phototexte {
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+
+}
+
+/* EXP PRO */
+
+
+#experiencesprofessionnelles {
+	
+	background-color: white;
+	border: 3px solid #57D8A9;
+	font-size: 17px;
+	margin-top: -20px;
+	
+}
+
+
+/* FORMATION */
+
+
+.vt img {
+	width:auto;
+	height:10px;
+}
+
+
+
+
+#formations {
+	margin: auto;
+	background-color: white;
+	border: 3px solid #57D8A9;
+	font-size: 17px;
+	
+}
+
+
+.drapeaux img {
+	margin:10px;
+}
+
+/* CENTRE INTERET */
+
+#centresdinterets {
+	margin: auto;
+	background-color: white;
+	border: 3px solid #57D8A9;
+	font-size: 17px;
+	
+}
+
+/* BLOG */
+
+#blog{
+	margin: auto;
+	background-color: white;
+	border: 3px solid #57D8A9;
+	font-size: 17px;
+	
+}
+
+/* ME CONTACTER */
+
+#mecontacter {
+	
+	background-color: white;
+	border: 3px solid #57D8A9;
+	font-size: 17px;
+	
+}
+
+
+input[type="text"], input[type="email"] {
+	display: block;
+	margin: 5px;
+}
+
+
+
+
+/* PARTOUT */
+
+
+
+
+	h2 {
+	font-family: Quicksand, sans-serif;
+	color:#29B581;
+}
+
+li {
+	font-family: Bitter, serif;
+}
+p {
+	font-family: Bitter, serif;
+}
+
+span {
+	color: #C4AF23;
+	font-size: 40px;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+
+input {
+	width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:320px) {  /*small mobile*/
+  .menu p {
+    font-size: 20px;
+
+  }
+  .phototexte {
+  	font-size: 20px;
+  }
+
+  #experiencesprofessionnelles {
+  	font-size: 22px;
+  }
+  #formations {
+  	font-size: 22px;
+  }
+  #centresdinterets {
+  	font-size: 22px;
+  }
+  #blog {
+  	font-size: 22px;
+  }
+  #mecontacter {
+  	font-size: 22px;
+  }
+}
+
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  .menu p {
+    font-size: 25px; 
+  }
+  .phototexte {
+  	font-size: 20px;
+  }
+  #experiencesprofessionnelles {
+  	font-size: 20px;
+  }
+  #formations {
+  	font-size: 20px;
+  }
+  #centresdinterets {
+  	font-size: 20px;
+  }
+  #blog {
+  	font-size: 20px;
+  }
+  #mecontacter {
+  	font-size: 20px;
+  }
+}
+
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  .menu p {
+    font-size: 28px;
+  }
+  .phototexte {
+  	font-size: 18px;
+  }
+  #experiencesprofessionnelles {
+  	font-size: 19px;
+  }
+  #formations {
+  	font-size: 19px;
+  }
+  #centresdinterets {
+  	font-size: 19px;
+  }
+  #blog {
+  	font-size: 19px;
+  }
+  #mecontacter {
+  	font-size: 19px;
+  }
+}
+
+@media (min-width:1600px) {  /*desktop and tv*/
+  .menu p {
+    font-size: 30px;
+  }
+  .phototexte {
+  	font-size: 18px;
+  }
+  #experiencesprofessionnelles {
+  	font-size: 17px;
+  }
+  #formations {
+  	font-size: 17px;
+  }
+  #centresdinterets {
+  	font-size: 17px;
+  }
+  #blog {
+  	font-size: 17px;
+  }
+  #mecontacter {
+  	font-size: 17px;
+  }
+}
