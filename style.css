@@ -249,12 +249,12 @@ input {
 body {
 	width:100%;
 	margin:auto;
-}
+  }
 nav {
 	width: 100%;
 	margin:auto;
 	
-}
+  }
 }
 
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
@@ -282,11 +282,11 @@ nav {
   body {
 	width:100%;
 	margin:auto;
-}
+  }
 nav {
 	width: 100%;
 	margin:auto;
-}
+  }
 }
 
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
@@ -314,7 +314,7 @@ nav {
 
 .clem {
 	display:none;
-}
+  }
 }
 
 @media (min-width:1600px) {  /*desktop and tv*/
@@ -341,5 +341,5 @@ nav {
   }
   .clem {
 	display:none;
-}
+  }
 }
