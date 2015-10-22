@@ -2,7 +2,7 @@
 
 
 /* HEADER */
-
+/*
 header {
 	position:fixed;
 	top:-40px;
@@ -12,39 +12,63 @@ header {
 	text-align: center;
 	height:120px;
 	z-index: 900;
-}
-/*;
-.navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
-}
- /*
-.menu p {
-	color: white;
-	font-family: Quicksand, sans-serif;
-	font-size: 25px;
+}*/
+
+nav {
+	width: 80%;
+	margin:auto;
+	
 }
 
-.menu li {
+.navbar-default {
+    background-color:#57D8A9;
+    
+}
+ 
+nav p {
+	color: white;
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+}
+
+nav li {
 	display: inline-block;
 	font-size: 20px;
-	margin-right: 20px;
+	margin-right: 10px;
 
 } 
 
-.menu a {
+nav a {
 	text-decoration: none;
 	color: white;
 }
+.navbar-default 
+.navbar-nav>li>a {
+    color: white;
+}
+.navbar-default 
+.navbar-brand {
+    color: white;
+}
+.navbar-default 
+.navbar-toggle {
+    border-color: white;
+}
+.navbar-default 
+.navbar-toggle 
+.icon-bar {
+    background-color: #C4AF23;
+}
 
 
-.menu img {
+
+nav img {
 
 	width:50px;
 	height:50px;
 
 } 
-*/
+
 
 
 /* PARTIE PHOTO TEXT */
@@ -141,6 +165,10 @@ header {
 	font-size: 17px;
 	
 }
+.form-horizontal
+.form-group {
+	margin-right: 0px;
+}
 
 
 input[type="text"], input[type="email"] {
@@ -213,6 +241,15 @@ input {
   #mecontacter {
   	font-size: 22px;
   }
+body {
+	width:100%;
+	margin:auto;
+}
+nav {
+	width: 100%;
+	margin:auto;
+	
+}
 }
 
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
@@ -237,6 +274,14 @@ input {
   #mecontacter {
   	font-size: 20px;
   }
+  body {
+	width:100%;
+	margin:auto;
+}
+nav {
+	width: 100%;
+	margin:auto;
+}
 }
 
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
