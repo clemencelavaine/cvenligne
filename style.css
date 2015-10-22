@@ -91,6 +91,11 @@ nav img {
   margin-left: -20px;
 
 }
+.clem {
+	text-align: center;
+	font-size: 25px;
+	background-color: white;
+}
 
 .phototexte {
 	text-align: center;
@@ -306,6 +311,10 @@ nav {
   #mecontacter {
   	font-size: 19px;
   }
+
+.clem {
+	display:none;
+}
 }
 
 @media (min-width:1600px) {  /*desktop and tv*/
@@ -330,4 +339,7 @@ nav {
   #mecontacter {
   	font-size: 17px;
   }
+  .clem {
+	display:none;
+}
 }
