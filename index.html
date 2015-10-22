@@ -321,7 +321,7 @@
 							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
 							      </div>
 							      <div class="modal-body">
-							        <form class="form-horizontal">
+							        <form class="form-horizontal" id="mailbox" action="#">
 							  				<div class="form-group">
 							   				 	<label for="exampleInputName2">Nom</label>
 							   				 	<input type="text" class="form-control" id="exampleInputName2" placeholder="NOM Prénom">
@@ -334,7 +334,16 @@
 							  					  <label for="exampleInputMsg2">Votre message:</label><br/>
 							  					  <textarea class="form-control" rows="6"></textarea><br/>
 							 					 <button type="submit" class="btn btn-default">Envoyer le message</button>
-											</form>
+									</form>
+									<div id="errormessage" class="hidden">
+									<p>Votre message n'a pas pu être envoyé, veuillez recommencer!</p>
+									</div>
+									<div id="greatsuccess" class="hidden">
+									<p>Merci de votre message!</p>
+									</div>
+
+
+
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

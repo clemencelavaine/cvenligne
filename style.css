@@ -220,6 +220,10 @@ input {
 	width: 100%;
 }
 
+.hidden {
+	display:none;
+}
+
 /* RESPONSIVE */
 
 @media (max-width:320px) {  /*small mobile*/
