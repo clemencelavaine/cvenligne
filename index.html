@@ -62,7 +62,7 @@
 
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-3"><img src="images/clem.jpg" alt="photodeprofil"/></div>
+					<div class="col-md-3 text-center"><img src="images/clem.jpg" alt="photodeprofil"/></div>
 					<div class="col-md-9">
 					<div class="clem">Clémence LAVAINE</div><div class="phototexte"><strong><span>"</span></strong>Je suis actuellement étudiante en Master 2 Marketing Digital à Télécom Ecole de Management. Ce master s’effectue en apprentissage, je suis donc aussi alternante chez Snecma Safran en tant qu'Assistante responsable Marketing et Marketing Digital. 
 					Très intéressée par les nouvelles technologies et les nouveaux moyens de communication, et toujours en alerte quant aux développements rapides de l’internet, j’espère vivement pouvoir travailler plus tard dans le domaine du digital!<strong><span>"</span></strong></div></div>	
@@ -324,7 +324,7 @@
 							        <form class="form-horizontal" id="mailbox" action="#">
 							  				<div class="form-group">
 							   				 	<label for="exampleInputName2">Nom</label>
-							   				 	<input type="text" class="form-control" id="exampleInputName2" placeholder="NOM Prénom">
+							   				 	<input type="text" class="form-control" id="exampleInputName2" placeholder="NOM Prénom" name="mail">
 							 				 </div>
 							  				<div class="form-group">
 							   					 <label for="exampleInputEmail2">Email</label>
@@ -332,23 +332,20 @@
 							  				</div>
 							 				 <div class="form-group">
 							  					  <label for="exampleInputMsg2">Votre message:</label><br/>
-							  					  <textarea class="form-control" rows="6"></textarea><br/>
+							  					  <textarea class="form-control" rows="6" name="message"></textarea><br/>
 							 					 <button type="submit" class="btn btn-default">Envoyer le message</button>
 									</form>
-									<div id="errormessage" class="hidden">
+									<div id="errormessage" class="hiddenmessage">
 									<p>Votre message n'a pas pu être envoyé, veuillez recommencer!</p>
 									</div>
-									<div id="greatsuccess" class="hidden">
+									<div id="greatsuccess" class="hiddenmessage">
 									<p>Merci de votre message!</p>
 									</div>
 
 
 
 							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
-							      </div>
+							      
 							    </div>
 							  </div>
 							</div>

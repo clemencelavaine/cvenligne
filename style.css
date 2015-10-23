@@ -79,6 +79,7 @@ nav img {
   background: url(images/e.jpg) no-repeat center center;
   background-size: 1500px;
   margin-top: -20px;
+
   
 	 
 }
@@ -90,7 +91,18 @@ nav img {
   border: 3px solid #C4AF23;
   margin-left: -20px;
 
+
 }
+
+.text-center {
+    text-align: center;
+}
+img {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
 .clem {
 	text-align: center;
 	font-size: 25px;
@@ -215,12 +227,13 @@ body {
 	margin: auto;
 }
 
+/* FORM */
 
 input {
 	width: 100%;
 }
 
-.hidden {
+.hiddenmessage {
 	display:none;
 }
 
@@ -345,4 +358,13 @@ nav {
   .clem {
 	display:none;
   }
+}
+
+@media (min-width:767px) and (max-width:1305px) {
+
+nav li {
+	
+	font-size: 15px;
+	}
+
 }
