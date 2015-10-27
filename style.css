@@ -2,27 +2,15 @@
 
 
 /* HEADER */
-/*
-header {
-	position:fixed;
-	top:-40px;
-	width:100%;
-	background-color:#57D8A9;
-	
-	text-align: center;
-	height:120px;
-	z-index: 900;
-}*/
+
 
 nav {
 	width: 80%;
-	margin:auto;
-	
+	margin:auto;	
 }
 
 .navbar-default {
     background-color:#57D8A9;
-    
 }
  
 nav p {
@@ -35,38 +23,37 @@ nav li {
 	display: inline-block;
 	font-size: 20px;
 	margin-right: 10px;
-
 } 
 
 nav a {
 	text-decoration: none;
 	color: white;
 }
+
 .navbar-default 
 .navbar-nav>li>a {
     color: white;
 }
+
 .navbar-default 
 .navbar-brand {
     color: white;
 }
+
 .navbar-default 
 .navbar-toggle {
     border-color: white;
 }
+
 .navbar-default 
 .navbar-toggle 
 .icon-bar {
     background-color: #C4AF23;
 }
 
-
-
 nav img {
-
 	width:50px;
 	height:50px;
-
 } 
 
 
@@ -78,10 +65,7 @@ nav img {
 	height: auto;
   background: url(images/e.jpg) no-repeat center center;
   background-size: 1500px;
-  margin-top: -20px;
-
-  
-	 
+  margin-top: -20px;	 
 }
 
 .photo img {
@@ -90,18 +74,16 @@ nav img {
   width: 270px;
   border: 3px solid #C4AF23;
   margin-left: -20px;
-
-
 }
 
 .text-center {
     text-align: center;
 }
+
 img {
     vertical-align: middle;
     text-align: center;
 }
-
 
 .clem {
 	text-align: center;
@@ -113,7 +95,6 @@ img {
 	text-align: center;
 	font-size: 15px;
 	background-color: white;
-
 }
 
 /* EXP PRO */
@@ -124,8 +105,7 @@ img {
 	background-color: white;
 	border: 3px solid #57D8A9;
 	font-size: 17px;
-	margin-top: -20px;
-	
+	margin-top: -20px;	
 }
 
 
@@ -144,8 +124,7 @@ img {
 	margin: auto;
 	background-color: white;
 	border: 3px solid #57D8A9;
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
 
 
@@ -159,8 +138,7 @@ img {
 	margin: auto;
 	background-color: white;
 	border: 3px solid #57D8A9;
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
 
 /* BLOG */
@@ -169,8 +147,7 @@ img {
 	margin: auto;
 	background-color: white;
 	border: 3px solid #57D8A9;
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
 
 /* ME CONTACTER */
@@ -179,9 +156,9 @@ img {
 	
 	background-color: white;
 	border: 3px solid #57D8A9;
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
+
 .form-horizontal
 .form-group {
 	margin-right: 0px;
@@ -194,12 +171,7 @@ input[type="text"], input[type="email"] {
 }
 
 
-
-
 /* PARTOUT */
-
-
-
 
 	h2 {
 	font-family: Quicksand, sans-serif;
@@ -209,6 +181,7 @@ input[type="text"], input[type="email"] {
 li {
 	font-family: Bitter, serif;
 }
+
 p {
 	font-family: Bitter, serif;
 }
@@ -242,8 +215,8 @@ input {
 @media (max-width:320px) {  /*small mobile*/
   .menu p {
     font-size: 20px;
-
   }
+
   .phototexte {
   	font-size: 20px;
   }
@@ -251,22 +224,28 @@ input {
   #experiencesprofessionnelles {
   	font-size: 22px;
   }
+
   #formations {
   	font-size: 22px;
   }
+
   #centresdinterets {
   	font-size: 22px;
   }
+
   #blog {
   	font-size: 22px;
   }
+
   #mecontacter {
   	font-size: 22px;
   }
+
 body {
 	width:100%;
 	margin:auto;
   }
+  
 nav {
 	width: 100%;
 	margin:auto;
