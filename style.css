@@ -10,7 +10,7 @@ nav {
 }
 
 .navbar-default {
-    background-color:#57D8A9;
+    background-color:#D9BD4E;
 }
  
 nav p {
@@ -23,7 +23,11 @@ nav li {
 	display: inline-block;
 	font-size: 20px;
 	margin-right: 10px;
+	text-align: center;
 } 
+nav ul {
+	text-align: center;
+}
 
 nav a {
 	text-decoration: none;
@@ -103,7 +107,7 @@ img {
 #experiencesprofessionnelles {
 	
 	background-color: white;
-	border: 3px solid #57D8A9;
+	border: 3px solid #D9BD4E;
 	font-size: 17px;
 	margin-top: -20px;	
 }
@@ -123,7 +127,7 @@ img {
 #formations {
 	margin: auto;
 	background-color: white;
-	border: 3px solid #57D8A9;
+	border: 3px solid #D9BD4E;
 	font-size: 17px;	
 }
 
@@ -137,7 +141,7 @@ img {
 #centresdinterets {
 	margin: auto;
 	background-color: white;
-	border: 3px solid #57D8A9;
+	border: 3px solid #D9BD4E;
 	font-size: 17px;	
 }
 
@@ -146,7 +150,7 @@ img {
 #blog{
 	margin: auto;
 	background-color: white;
-	border: 3px solid #57D8A9;
+	border: 3px solid #D9BD4E;
 	font-size: 17px;	
 }
 
@@ -155,7 +159,7 @@ img {
 #mecontacter {
 	
 	background-color: white;
-	border: 3px solid #57D8A9;
+	border: 3px solid #D9BD4E;
 	font-size: 17px;	
 }
 
@@ -175,7 +179,7 @@ input[type="text"], input[type="email"] {
 
 	h2 {
 	font-family: Quicksand, sans-serif;
-	color:#29B581;
+	color:#D9BD4E;
 }
 
 li {
@@ -187,7 +191,7 @@ p {
 }
 
 span {
-	color: #C4AF23;
+	color: #29B581;
 	font-size: 40px;
 }
 
@@ -307,7 +311,7 @@ nav {
   #mecontacter {
   	font-size: 19px; 
 
-.clem {
+ .clem {
 	display:none;
   }
 }
